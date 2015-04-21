@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>underscore.js</title>
+    <script src="underscore-1.7.0.js"></script>
+</head>
+<body>
+
+<script>
+    /*
+    var eachData1 = [1,2,3];
+    var eachData2 = {one: 1, two: 2, three: 3};
+    var eachCallback = function(data) {
+        console.log(data);
+    };
+    _.each(eachData1, eachCallback);
+    _.each(eachData2, function(key, value) {
+        console.log(key, value);
+    });
+    */
+
+    var mapData1 = [1, 2, 3];
+    var newMapArray = _.map(mapData1, function(num) {
+        return num*12;
+    });
+    console.log(newMapArray);
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
